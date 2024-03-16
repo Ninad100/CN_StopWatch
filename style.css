@@ -1,11 +1,11 @@
-
+/* This is styles applied to Body tag. The basic height width and background images are adjusted. */
 body{
     height: 90vh;
     width: 90vw;
     background-image: url('stopwatch3.jpg');
     background-size:cover;
 }
-
+/* Styles applied to main div. The flex is used to Center the container and basic margins are adjusted */
 #main-window{
     margin-top: 6%;
     margin-left: 25%;
@@ -18,7 +18,7 @@ body{
     align-items: center;
     border-radius: 8%;
 }
-
+/* This section contains 3 elements. With Flex I adjusted all of them in to the Center. */
 #stopwatch-Section{
     
     background-color: rgba(47, 47, 94, 0.349);
@@ -31,7 +31,7 @@ body{
     border-radius: 5%;
     box-shadow: 0px 0px 6px 6px rgb(82, 1, 1);
 }
-
+/*Styling applied to Title of the Stopwatch*/
 #stopwatch-Section h3{
     
     position: absolute;
@@ -40,7 +40,7 @@ body{
     font-size: larger;
     font-family: emoji;
 }
-
+/*Below two stylings are applied to the section where time will be displayed. its just adjusted as per my requirement*/
 #Time-Display{
     margin-bottom: 15%;
 }
@@ -49,7 +49,7 @@ body{
     font-size: 50px;
     padding-top: 5%;
 }
-
+/*Below two stylings are applied to the section where buttons will be displayed. its just adjusted as per my requirement*/
 #Button-Section{
     margin-top: 5%;
     display: flex;
